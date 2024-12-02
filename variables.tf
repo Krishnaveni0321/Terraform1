@@ -1,6 +1,6 @@
 
 variable "filename"{
-    default = "names.txt"
+    default = "/home/ec2-user/tmp/names.txt"
     
 }
 variable "content" {
