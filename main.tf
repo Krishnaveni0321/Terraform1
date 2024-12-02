@@ -1,6 +1,6 @@
 
 resource "local_file" "names" {
-  filename = var.filename
+  filename = "/home/ec2-user/tmp/names.txt"
   content  = var.content
 }
 resource "random_pet" "petname"{
