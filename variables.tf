@@ -4,5 +4,5 @@ variable "filename"{
     
 }
 variable "content" {
- default = "Hai Ram"
+ 
 }
